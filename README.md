@@ -1,2 +1,2 @@
 # Weather_Etl
-programa que obtiene datos de temperatura
+Programa que obtiene datos de clima de openweather, los almacena en una base de datos y los envia a telegram.
