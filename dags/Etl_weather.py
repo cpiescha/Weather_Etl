@@ -3,6 +3,7 @@ from datetime import timedelta
 from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.utils.dates import days_ago
+from airflow.providers.postgres.operators.postgres import PostgresOperator
 import requests
 import json
 from datetime import datetime
@@ -87,8 +88,24 @@ task_1()
 #     schedule_interval=timedelta(days=1),
 # )
 
-# eExtract_data = PythonOperator(
+# Extract_data = PythonOperator(
 #      task_id='download_dataset',
 #     python_callable=extract_data_from_api,
 #     dag=dag
 # )
+
+# create_table = PostgresOperator(
+#         task_id='create_table',
+#         postgres_conn_id='postgres_default',
+#         sql="""
+#         CREATE TABLE IF NOT EXISTS weather_medellin (
+#             city VARCHAR(255),
+#             temp FLOAT,
+#             temp_min FLOAT,
+#             temp_max FLOAT,
+#             pressure INT,
+#             humidity INT,
+#             timestamp DATE
+#         );
+#         """
+#     )
