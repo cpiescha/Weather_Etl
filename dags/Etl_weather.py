@@ -99,13 +99,13 @@ task_1()
 #         postgres_conn_id='postgres_default',
 #         sql="""
 #         CREATE TABLE IF NOT EXISTS weather_medellin (
-#             city VARCHAR(255),
-#             temp FLOAT,
-#             temp_min FLOAT,
-#             temp_max FLOAT,
-#             pressure INT,
-#             humidity INT,
-#             timestamp DATE
+#             city varchar(255),
+#             temp float,
+#             temp_min float,
+#             temp_max float,
+#             pressure integer,
+#             humidity integer,
+#             time timestamp
 #         );
 #         """
 #     )
