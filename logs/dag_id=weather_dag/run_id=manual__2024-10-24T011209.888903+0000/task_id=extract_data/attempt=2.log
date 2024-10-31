@@ -1,0 +1,27 @@
+[2024-10-24T01:17:12.834+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-24T01:17:12.846+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dag.extract_data manual__2024-10-24T01:12:09.888903+00:00 [queued]>
+[2024-10-24T01:17:12.852+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dag.extract_data manual__2024-10-24T01:12:09.888903+00:00 [queued]>
+[2024-10-24T01:17:12.853+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-10-24T01:17:12.860+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_data> on 2024-10-24 01:12:09.888903+00:00
+[2024-10-24T01:17:12.866+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=218) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-24T01:17:12.867+0000] {standard_task_runner.py:72} INFO - Started process 220 to run task
+[2024-10-24T01:17:12.868+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_dag', 'extract_data', 'manual__2024-10-24T01:12:09.888903+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/Etl_weather.py', '--cfg-path', '/tmp/tmp8fkplnv1']
+[2024-10-24T01:17:12.868+0000] {standard_task_runner.py:105} INFO - Job 18: Subtask extract_data
+[2024-10-24T01:17:12.905+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_dag.extract_data manual__2024-10-24T01:12:09.888903+00:00 [running]> on host 9ec308eea9c2
+[2024-10-24T01:17:13.129+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='milo0@gmail.com' AIRFLOW_CTX_DAG_OWNER='milo' AIRFLOW_CTX_DAG_ID='weather_dag' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-24T01:12:09.888903+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-24T01:12:09.888903+00:00'
+[2024-10-24T01:17:13.130+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-24T01:17:13.140+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-24T01:17:13.141+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/plugins/tmp/extract_data_api.py']
+[2024-10-24T01:17:13.151+0000] {subprocess.py:86} INFO - Output:
+[2024-10-24T01:17:15.066+0000] {subprocess.py:93} INFO - {'coord': {'lon': -75.5636, 'lat': 6.2518}, 'weather': [{'id': 802, 'main': 'Clouds', 'description': 'scattered clouds', 'icon': '03n'}], 'base': 'stations', 'main': {'temp': 19.7, 'feels_like': 20.26, 'temp_min': 19.29, 'temp_max': 20.87, 'pressure': 1015, 'humidity': 97, 'sea_level': 1015, 'grnd_level': 806}, 'visibility': 10000, 'wind': {'speed': 1.34, 'deg': 80, 'gust': 0}, 'clouds': {'all': 40}, 'dt': 1729732405, 'sys': {'type': 2, 'id': 2084700, 'country': 'CO', 'sunrise': 1729680487, 'sunset': 1729723476}, 'timezone': -18000, 'id': 3674962, 'name': 'Medellín', 'cod': 200}
+[2024-10-24T01:17:15.157+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-10-24T01:17:15.184+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-24T01:17:15.185+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=weather_dag, task_id=extract_data, run_id=manual__2024-10-24T01:12:09.888903+00:00, execution_date=20241024T011209, start_date=20241024T011712, end_date=20241024T011715
+[2024-10-24T01:17:15.213+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-24T01:17:15.222+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-10-24T01:17:15.236+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-24T01:17:15.238+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

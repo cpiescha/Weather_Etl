@@ -1,0 +1,1383 @@
+[2024-10-24T00:26:36.397+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:26:36.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:26:36.402+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:26:36.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:26:36.428+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:26:36.423+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:26:36.430+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:26:36.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.069 seconds
+[2024-10-24T00:27:07.160+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:27:07.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:27:07.163+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:27:07.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:27:07.177+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:27:07.174+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:27:07.178+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:27:07.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.039 seconds
+[2024-10-24T00:27:37.622+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:27:37.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:27:37.629+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:27:37.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:27:37.648+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:27:37.643+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:27:37.650+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:27:37.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.060 seconds
+[2024-10-24T00:28:08.050+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:28:08.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:28:08.053+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:28:08.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:28:08.066+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:28:08.063+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:28:08.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:28:08.084+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.039 seconds
+[2024-10-24T00:28:38.634+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:28:38.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:28:38.637+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:28:38.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:28:38.652+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:28:38.649+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:28:38.653+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:28:38.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.042 seconds
+[2024-10-24T00:29:09.095+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:09.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:29:09.101+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:09.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:09.121+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:09.118+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:29:09.122+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:09.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.051 seconds
+[2024-10-24T00:29:39.546+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:39.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:29:39.550+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:39.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:39.566+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:39.563+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:29:39.568+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:39.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.042 seconds
+[2024-10-24T00:29:45.742+0000] {processor.py:186} INFO - Started process (PID=119) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:45.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:29:45.746+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:45.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:45.771+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:45.768+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.e import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:29:45.772+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:45.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.049 seconds
+[2024-10-24T00:29:46.765+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:46.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:29:46.768+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:46.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:46.789+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:46.786+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_data_api
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:29:46.790+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:46.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.049 seconds
+[2024-10-24T00:29:55.922+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:55.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:29:55.926+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:55.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:55.946+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:29:55.943+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:29:55.948+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:29:55.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.046 seconds
+[2024-10-24T00:30:00.989+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:00.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:30:00.992+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:00.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:01.010+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:01.006+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:30:01.011+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:01.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.043 seconds
+[2024-10-24T00:30:31.499+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:31.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:30:31.503+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:31.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:31.517+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:31.514+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:30:31.518+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:31.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.039 seconds
+[2024-10-24T00:30:32.578+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:32.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:30:32.581+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:32.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:32.606+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:32.603+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:30:32.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:32.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.049 seconds
+[2024-10-24T00:30:35.612+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:35.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:30:35.615+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:35.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:35.633+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:35.630+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from wetahertmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'wetahertmp'
+[2024-10-24T00:30:35.634+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:35.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.043 seconds
+[2024-10-24T00:30:44.007+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:44.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:30:44.012+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:44.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:44.044+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:44.039+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:30:44.047+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:44.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.068 seconds
+[2024-10-24T00:30:46.089+0000] {processor.py:186} INFO - Started process (PID=143) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:46.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:30:46.093+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:46.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:46.104+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:46.104+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7
+    from ./tmp.extract_data_api import extract_weather_data
+          ^
+SyntaxError: invalid syntax
+[2024-10-24T00:30:46.105+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:46.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.037 seconds
+[2024-10-24T00:30:48.142+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:48.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:30:48.145+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:48.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:48.167+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:30:48.163+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:30:48.167+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:30:48.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.044 seconds
+[2024-10-24T00:31:18.690+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:31:18.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:31:18.694+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:31:18.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:31:18.704+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:31:18.702+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:31:18.706+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:31:18.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.038 seconds
+[2024-10-24T00:31:49.289+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:31:49.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:31:49.294+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:31:49.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:31:49.306+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:31:49.303+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:31:49.308+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:31:49.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.050 seconds
+[2024-10-24T00:32:03.459+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:03.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:32:03.462+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:32:03.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:03.480+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:32:03.477+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:32:03.482+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:03.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.044 seconds
+[2024-10-24T00:32:05.496+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:05.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:32:05.499+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:32:05.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:05.524+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:32:05.519+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:32:05.525+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:05.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.049 seconds
+[2024-10-24T00:32:07.595+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:07.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:32:07.598+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:32:07.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:07.619+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:32:07.615+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:32:07.620+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:07.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.044 seconds
+[2024-10-24T00:32:38.255+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:38.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:32:38.258+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:32:38.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:38.273+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:32:38.270+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:32:38.274+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:32:38.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.047 seconds
+[2024-10-24T00:33:08.767+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:33:08.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:33:08.771+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:33:08.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:33:08.783+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:33:08.781+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:33:08.784+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:33:08.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.035 seconds
+[2024-10-24T00:33:39.224+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:33:39.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:33:39.227+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:33:39.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:33:39.247+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:33:39.242+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:33:39.249+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:33:39.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.057 seconds
+[2024-10-24T00:41:18.111+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:18.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:41:18.116+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:41:18.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:18.146+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:41:18.140+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:41:18.149+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:18.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.070 seconds
+[2024-10-24T00:41:48.651+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:48.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:41:48.657+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:41:48.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:48.672+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:41:48.668+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 7, in <module>
+    from tmp.extract_data_api import extract_weather_data
+ModuleNotFoundError: No module named 'tmp'
+[2024-10-24T00:41:48.673+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:48.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.043 seconds
+[2024-10-24T00:41:57.879+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:57.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:41:57.882+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:41:57.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:57.914+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:41:57.905+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32, in <module>
+    python_callable=extract_weather_data,
+                    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'extract_weather_data' is not defined
+[2024-10-24T00:41:57.920+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:41:57.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.064 seconds
+[2024-10-24T00:42:03.945+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:03.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:42:03.947+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:03.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:03.967+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:03.964+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 30, in <module>
+    Extract_data = bash(
+                   ^^^^
+NameError: name 'bash' is not defined. Did you mean: 'hash'?
+[2024-10-24T00:42:03.968+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:03.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.042 seconds
+[2024-10-24T00:42:05.987+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:05.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:42:05.990+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:05.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:05.999+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:05.998+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 31
+    task_id='download_dataset',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:42:05.999+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:06.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.032 seconds
+[2024-10-24T00:42:18.097+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:18.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:42:18.100+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:18.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:18.114+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:18.113+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='download_dataset',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:42:18.115+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:18.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.034 seconds
+[2024-10-24T00:42:22.365+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:22.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:42:22.368+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:22.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:22.379+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:22.378+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 5
+    from airflow.operators.bahimport PythonOperator
+                                     ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2024-10-24T00:42:22.380+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:22.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.033 seconds
+[2024-10-24T00:42:24.406+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:24.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:42:24.410+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:24.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:24.435+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:24.433+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='download_dataset',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:42:24.437+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:24.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.060 seconds
+[2024-10-24T00:42:30.522+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:30.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:42:30.525+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:30.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:30.540+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:42:30.539+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='download_dataset',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:42:30.541+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:42:30.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.042 seconds
+[2024-10-24T00:43:01.245+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:01.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:01.248+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:01.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:01.257+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:01.257+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='download_dataset',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:01.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:01.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.033 seconds
+[2024-10-24T00:43:09.376+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:09.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:09.379+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:09.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:09.392+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:09.391+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult',
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:09.393+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:09.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.034 seconds
+[2024-10-24T00:43:12.434+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:12.435+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:12.438+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:12.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:12.454+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:12.453+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:12.455+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:12.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.044 seconds
+[2024-10-24T00:43:15.508+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:15.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:15.511+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:15.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:15.524+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:15.523+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:15.525+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:15.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.035 seconds
+[2024-10-24T00:43:23.995+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:23.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:23.998+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:23.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:24.007+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:24.006+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:24.007+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:24.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.028 seconds
+[2024-10-24T00:43:26.036+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:26.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:26.040+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:26.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:26.052+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:26.051+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:26.052+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:26.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.038 seconds
+[2024-10-24T00:43:41.222+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:41.223+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:41.225+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:41.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:41.235+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:41.235+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:41.236+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:41.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.043 seconds
+[2024-10-24T00:43:46.286+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:46.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:46.290+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:46.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:46.301+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:46.300+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:46.301+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:46.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.039 seconds
+[2024-10-24T00:43:50.380+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:50.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:50.383+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:50.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:50.394+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:50.393+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:50.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:50.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.032 seconds
+[2024-10-24T00:43:53.682+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:53.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:53.686+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:53.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:53.698+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:53.697+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:53.699+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:53.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.039 seconds
+[2024-10-24T00:43:56.728+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:56.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:56.731+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:56.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:56.741+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:56.740+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:56.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:56.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.036 seconds
+[2024-10-24T00:43:58.801+0000] {processor.py:186} INFO - Started process (PID=119) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:58.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:43:58.804+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:58.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:58.818+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:43:58.817+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:43:58.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:43:58.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.036 seconds
+[2024-10-24T00:44:06.902+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:06.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:44:06.906+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:06.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:06.919+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:06.918+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:44:06.919+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:06.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.035 seconds
+[2024-10-24T00:44:18.083+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:18.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:44:18.087+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:18.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:18.100+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:18.099+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:44:18.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:18.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.042 seconds
+[2024-10-24T00:44:20.138+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:20.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:44:20.142+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:20.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:20.154+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:20.153+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:44:20.155+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:20.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.044 seconds
+[2024-10-24T00:44:29.525+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:29.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:44:29.527+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:29.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:29.537+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:29.536+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:44:29.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:29.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.033 seconds
+[2024-10-24T00:44:31.597+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:31.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:44:31.600+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:31.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:31.611+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:44:31.610+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:44:31.612+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:44:31.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.031 seconds
+[2024-10-24T00:45:02.221+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:02.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:45:02.223+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:45:02.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:02.238+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:45:02.237+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:45:02.239+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:02.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.038 seconds
+[2024-10-24T00:45:32.666+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:32.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:45:32.669+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:45:32.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:32.685+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:45:32.684+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:45:32.686+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:32.702+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.042 seconds
+[2024-10-24T00:45:39.762+0000] {processor.py:186} INFO - Started process (PID=151) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:39.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:45:39.765+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:45:39.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:39.783+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:45:39.782+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:45:39.784+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:39.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.043 seconds
+[2024-10-24T00:45:41.819+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:41.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:45:41.822+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:45:41.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:41.837+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:45:41.837+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:45:41.838+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:45:41.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.039 seconds
+[2024-10-24T00:46:03.186+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:03.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:46:03.191+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:46:03.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:03.212+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:46:03.211+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:46:03.213+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:03.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.055 seconds
+[2024-10-24T00:46:26.647+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:26.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:46:26.651+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:46:26.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:26.663+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:46:26.662+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 32
+    task_id ='consult_api',
+    ^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[2024-10-24T00:46:26.664+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:26.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.039 seconds
+[2024-10-24T00:46:52.930+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:52.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:46:52.933+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:46:52.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:52.964+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:46:52.957+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined
+[2024-10-24T00:46:52.968+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:52.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.061 seconds
+[2024-10-24T00:46:58.129+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:58.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:46:58.132+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:46:58.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:58.153+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:46:58.150+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined. Did you mean: 'extract_data'?
+[2024-10-24T00:46:58.155+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:46:58.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.044 seconds
+[2024-10-24T00:47:05.207+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:05.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:05.210+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:05.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:05.232+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:05.230+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined. Did you mean: 'extract_data'?
+[2024-10-24T00:47:05.234+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:05.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.047 seconds
+[2024-10-24T00:47:10.304+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:10.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:10.307+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:10.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:10.331+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:10.327+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined. Did you mean: 'extract_data'?
+[2024-10-24T00:47:10.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:10.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.046 seconds
+[2024-10-24T00:47:15.372+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:15.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:15.376+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:15.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:15.402+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:15.399+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined. Did you mean: 'extract_data'?
+[2024-10-24T00:47:15.404+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:15.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.054 seconds
+[2024-10-24T00:47:17.449+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:17.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:17.452+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:17.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:17.472+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:17.469+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined. Did you mean: 'extract_data'?
+[2024-10-24T00:47:17.474+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:17.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.044 seconds
+[2024-10-24T00:47:21.555+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:21.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:21.558+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:21.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:21.584+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:21.581+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined. Did you mean: 'extract_data'?
+[2024-10-24T00:47:21.586+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:21.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.053 seconds
+[2024-10-24T00:47:25.608+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:25.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:25.611+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:25.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:25.640+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:25.634+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined. Did you mean: 'extract_data'?
+[2024-10-24T00:47:25.643+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:25.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.057 seconds
+[2024-10-24T00:47:28.840+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:28.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:28.843+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:28.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:28.865+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:28.862+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53, in <module>
+    create_table>>Extract_data
+                  ^^^^^^^^^^^^
+NameError: name 'Extract_data' is not defined. Did you mean: 'extract_data'?
+[2024-10-24T00:47:28.866+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:28.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.044 seconds
+[2024-10-24T00:47:35.917+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:35.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:35.920+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:35.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:35.931+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:35.930+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/Etl_weather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_weather.py", line 53
+    create_table>
+                 ^
+SyntaxError: invalid syntax
+[2024-10-24T00:47:35.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:35.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.035 seconds
+[2024-10-24T00:47:41.017+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:41.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:41.020+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:41.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:41.042+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:41.052+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:41.052+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:47:41.074+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:41.074+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:47:41.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.086 seconds
+[2024-10-24T00:47:43.053+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:43.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:47:43.058+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:43.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:43.081+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:47:43.091+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:43.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:47:43.112+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:47:43.112+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:47:43.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.086 seconds
+[2024-10-24T00:48:13.508+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:48:13.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:48:13.511+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:48:13.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:48:13.526+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:48:13.534+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:48:13.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:48:13.552+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:48:13.551+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:48:13.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.062 seconds
+[2024-10-24T00:48:44.059+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:48:44.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:48:44.062+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:48:44.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:48:44.081+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:48:44.091+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:48:44.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:48:44.112+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:48:44.112+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:48:44.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.077 seconds
+[2024-10-24T00:49:14.549+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:49:14.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:49:14.552+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:49:14.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:49:14.571+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:49:14.581+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:49:14.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:49:14.601+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:49:14.601+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:49:14.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.075 seconds
+[2024-10-24T00:49:44.963+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:49:44.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:49:44.966+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:49:44.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:49:44.984+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:49:44.994+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:49:44.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:49:45.015+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:49:45.015+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:49:45.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.075 seconds
+[2024-10-24T00:50:15.463+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:50:15.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:50:15.467+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:50:15.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:50:15.485+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:50:15.498+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:50:15.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:50:15.526+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:50:15.526+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:50:15.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.102 seconds
+[2024-10-24T00:50:45.972+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:50:45.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:50:45.976+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:50:45.975+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:50:45.994+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:50:46.007+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:50:46.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:50:46.030+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:50:46.030+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:50:46.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.089 seconds
+[2024-10-24T00:51:16.468+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:51:16.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:51:16.471+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:51:16.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:51:16.489+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:51:16.499+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:51:16.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:51:16.517+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:51:16.516+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:51:16.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.069 seconds
+[2024-10-24T00:51:46.966+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:51:46.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:51:46.970+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:51:46.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:51:47.002+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:51:47.014+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:51:47.013+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:51:47.039+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:51:47.039+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:51:47.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.097 seconds
+[2024-10-24T00:52:17.403+0000] {processor.py:186} INFO - Started process (PID=278) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:52:17.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:52:17.413+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:52:17.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:52:17.438+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:52:17.457+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:52:17.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:52:17.485+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:52:17.485+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:52:17.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.109 seconds
+[2024-10-24T00:52:47.926+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:52:47.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:52:47.930+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:52:47.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:52:47.949+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:52:47.958+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:52:47.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:52:47.975+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:52:47.974+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:52:47.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.069 seconds
+[2024-10-24T00:53:18.354+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:53:18.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:53:18.357+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:53:18.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:53:18.377+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:53:18.387+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:53:18.387+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:53:18.407+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:53:18.406+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:53:18.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.075 seconds
+[2024-10-24T00:53:48.652+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:53:48.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:53:48.653+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:53:48.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:53:48.678+0000] {processor.py:925} INFO - DAG(s) 'etl_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:53:48.766+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:53:48.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:53:48.782+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:53:48.782+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:53:48.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.150 seconds
+[2024-10-24T00:56:14.995+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:56:14.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:56:15.001+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:56:15.048+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:56:15.175+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.175+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:weather_dag
+[2024-10-24T00:56:15.339+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.339+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:weather_dag
+[2024-10-24T00:56:15.349+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.348+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:weather_dag
+[2024-10-24T00:56:15.363+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.361+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:weather_dag
+[2024-10-24T00:56:15.372+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.372+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:weather_dag
+[2024-10-24T00:56:15.384+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.383+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:weather_dag
+[2024-10-24T00:56:15.394+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.394+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:weather_dag
+[2024-10-24T00:56:15.395+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:56:15.411+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.410+0000] {dag.py:3262} INFO - Creating ORM DAG for weather_dag
+[2024-10-24T00:56:15.421+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:15.421+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:56:15.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.454 seconds
+[2024-10-24T00:56:45.681+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:56:45.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:56:45.684+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:45.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:56:45.701+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:56:45.721+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:45.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:56:45.741+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:56:45.741+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:56:45.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.080 seconds
+[2024-10-24T00:57:15.928+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:57:15.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:57:15.930+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:57:15.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:57:15.944+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:57:15.964+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:57:15.964+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:57:15.981+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:57:15.981+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:57:15.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.074 seconds
+[2024-10-24T00:57:46.193+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:57:46.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:57:46.195+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:57:46.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:57:46.216+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:57:46.243+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:57:46.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:57:46.263+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:57:46.263+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:57:46.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.225 seconds
+[2024-10-24T00:58:16.667+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:58:16.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:58:16.670+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:58:16.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:58:16.687+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:58:16.711+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:58:16.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:58:16.835+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:58:16.835+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:58:16.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.190 seconds
+[2024-10-24T00:58:46.905+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:58:46.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:58:46.907+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:58:46.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:58:46.925+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:58:46.946+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:58:46.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:58:47.094+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:58:47.094+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:58:47.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.209 seconds
+[2024-10-24T00:59:17.313+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:59:17.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:59:17.315+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:59:17.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:59:17.340+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:59:17.500+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:59:17.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:59:17.518+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:59:17.518+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:59:17.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.230 seconds
+[2024-10-24T00:59:32.437+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:59:32.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T00:59:32.439+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:59:32.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:59:32.464+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T00:59:32.689+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:59:32.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T00:59:32.707+0000] {logging_mixin.py:190} INFO - [2024-10-24T00:59:32.707+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T00:59:32.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.298 seconds
+[2024-10-24T01:00:02.921+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:00:02.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:00:03.020+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:00:03.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:00:03.032+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:00:03.047+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:00:03.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:00:03.063+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:00:03.062+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:00:03.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.160 seconds
+[2024-10-24T01:10:16.550+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:10:16.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:10:16.554+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:10:16.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:10:16.590+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:10:16.908+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:10:16.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:10:16.932+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:10:16.932+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:10:16.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.420 seconds
+[2024-10-24T01:10:47.195+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:10:47.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:10:47.201+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:10:47.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:10:47.228+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:10:47.255+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:10:47.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:10:47.282+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:10:47.282+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:10:47.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.121 seconds
+[2024-10-24T01:11:07.380+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:11:07.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:11:07.383+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:11:07.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:11:07.406+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:11:07.584+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:11:07.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:11:07.599+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:11:07.599+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:11:07.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.238 seconds
+[2024-10-24T01:11:37.702+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:11:37.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:11:37.705+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:11:37.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:11:37.721+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:11:37.742+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:11:37.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:11:37.763+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:11:37.762+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:11:37.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.086 seconds
+[2024-10-24T01:12:08.027+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:12:08.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:12:08.029+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:12:08.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:12:08.045+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:12:08.064+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:12:08.064+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:12:08.082+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:12:08.082+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:12:08.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.169 seconds
+[2024-10-24T01:12:38.288+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:12:38.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:12:38.291+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:12:38.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:12:38.309+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:12:38.330+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:12:38.329+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:12:38.441+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:12:38.441+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:12:38.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.171 seconds
+[2024-10-24T01:13:08.565+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:08.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:13:08.569+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:08.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:08.588+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:08.608+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:08.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:13:08.755+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:08.754+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:13:08.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.212 seconds
+[2024-10-24T01:13:38.990+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:38.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:13:38.993+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:38.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:39.006+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:39.119+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:39.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:13:39.133+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:39.133+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:13:39.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.160 seconds
+[2024-10-24T01:13:48.292+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:48.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:13:48.295+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:48.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:48.416+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:48.503+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:48.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:13:48.518+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:48.518+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:13:48.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.252 seconds
+[2024-10-24T01:13:51.606+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:51.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:13:51.609+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:51.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:51.722+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:13:51.731+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:51.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:13:51.746+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:13:51.746+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:13:51.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.160 seconds
+[2024-10-24T01:14:22.021+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:22.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:14:22.025+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:22.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:22.043+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:22.065+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:22.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:14:22.082+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:22.082+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:14:22.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.089 seconds
+[2024-10-24T01:14:47.300+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:47.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:14:47.302+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:47.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:47.323+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:47.404+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:47.404+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:14:47.419+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:47.419+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:14:47.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.141 seconds
+[2024-10-24T01:14:49.483+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:49.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:14:49.485+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:49.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:49.506+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:49.515+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:49.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:14:49.532+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:49.531+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:14:49.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.069 seconds
+[2024-10-24T01:14:51.526+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:51.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:14:51.529+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:51.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:51.553+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:14:51.562+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:51.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:14:51.580+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:14:51.579+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:14:51.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.074 seconds
+[2024-10-24T01:15:03.740+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:15:03.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:15:03.743+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:15:03.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:15:03.764+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:15:03.771+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:15:03.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:15:03.788+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:15:03.787+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:15:03.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.071 seconds
+[2024-10-24T01:15:34.066+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:15:34.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:15:34.068+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:15:34.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:15:34.083+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:15:34.174+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:15:34.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:15:34.191+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:15:34.191+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:15:34.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.147 seconds
+[2024-10-24T01:16:04.349+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:16:04.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:16:04.353+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:16:04.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:16:04.372+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:16:04.395+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:16:04.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:16:04.419+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:16:04.419+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:16:04.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.097 seconds
+[2024-10-24T01:16:34.729+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:16:34.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:16:34.732+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:16:34.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:16:34.748+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:16:34.769+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:16:34.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:16:34.787+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:16:34.787+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:16:34.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.081 seconds
+[2024-10-24T01:17:05.060+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:17:05.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:17:05.064+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:17:05.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:17:05.084+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:17:05.104+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:17:05.104+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:17:05.120+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:17:05.120+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:17:05.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.082 seconds
+[2024-10-24T01:17:35.383+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:17:35.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:17:35.386+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:17:35.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:17:35.404+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:17:35.422+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:17:35.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:17:35.439+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:17:35.439+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:17:35.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.075 seconds
+[2024-10-24T01:18:05.775+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:18:05.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:18:05.779+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:18:05.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:18:05.799+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:18:05.820+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:18:05.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:18:05.841+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:18:05.841+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:18:05.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.091 seconds
+[2024-10-24T01:18:36.116+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:18:36.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:18:36.119+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:18:36.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:18:36.133+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:18:36.151+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:18:36.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:18:36.167+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:18:36.167+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:18:36.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.069 seconds
+[2024-10-24T01:19:06.437+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:19:06.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:19:06.440+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:19:06.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:19:06.457+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:19:06.476+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:19:06.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:19:06.493+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:19:06.493+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:19:06.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.074 seconds
+[2024-10-24T01:19:36.803+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:19:36.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:19:36.807+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:19:36.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:19:36.823+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:19:36.842+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:19:36.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:19:36.859+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:19:36.859+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:19:36.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.078 seconds
+[2024-10-24T01:20:07.135+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:20:07.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_weather.py for tasks to queue
+[2024-10-24T01:20:07.138+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:20:07.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:20:07.159+0000] {processor.py:925} INFO - DAG(s) 'weather_dag' retrieved from /opt/airflow/dags/Etl_weather.py
+[2024-10-24T01:20:07.181+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:20:07.181+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-24T01:20:07.201+0000] {logging_mixin.py:190} INFO - [2024-10-24T01:20:07.201+0000] {dag.py:4180} INFO - Setting next_dagrun for weather_dag to 2024-10-24 00:00:00+00:00, run_after=2024-10-25 00:00:00+00:00
+[2024-10-24T01:20:07.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_weather.py took 0.091 seconds

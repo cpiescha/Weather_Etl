@@ -1,0 +1,665 @@
+[2024-10-24T00:26:36.163+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T00:26:36.164+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-24T00:26:36.165+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T00:26:36.166+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T00:26:36.222+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2024-10-24T00:26:36.406+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/etl_process.py                                0           0                                                   0
+/opt/airflow/dags/etl_process_data.py     57  0.02s             0           0                                                   0
+/opt/airflow/dags/Etl_weather.py          56  0.04s             0           0                                                   0
+================================================================================
+[2024-10-24T00:26:37.001+0000] {manager.py:1146} ERROR - Processor for /opt/airflow/dags/etl_process.py exited with return code 1.
+[2024-10-24T00:27:07.155+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py                                0          -1  0.52s           2024-10-24T00:26:37                       0
+/opt/airflow/dags/etl_process_data.py     66  0.00s             1           0  0.45s           2024-10-24T00:26:36                      45
+/opt/airflow/dags/Etl_weather.py          65  0.01s             0           1  0.10s           2024-10-24T00:26:36                       3
+================================================================================
+[2024-10-24T00:27:37.617+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py     75  0.00s             1           0  0.19s           2024-10-24T00:27:07                      34
+/opt/airflow/dags/etl_process.py                                1           0  0.11s           2024-10-24T00:27:07                      12
+/opt/airflow/dags/Etl_weather.py          74  0.02s             0           1  0.06s           2024-10-24T00:27:07                       5
+================================================================================
+[2024-10-24T00:28:08.046+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py                                1           0  0.41s           2024-10-24T00:27:38                      34
+/opt/airflow/dags/etl_process_data.py     90  0.00s             1           0  0.15s           2024-10-24T00:27:37                      12
+/opt/airflow/dags/Etl_weather.py          89  0.01s             0           1  0.08s           2024-10-24T00:27:37                       5
+================================================================================
+[2024-10-24T00:28:38.629+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py     99  0.00s             1           0  0.28s           2024-10-24T00:28:08                      34
+/opt/airflow/dags/etl_process.py                                1           0  0.08s           2024-10-24T00:28:08                      11
+/opt/airflow/dags/Etl_weather.py          98  0.02s             0           1  0.06s           2024-10-24T00:28:08                       5
+================================================================================
+[2024-10-24T00:29:09.089+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py                                1           0  0.33s           2024-10-24T00:28:39                      34
+/opt/airflow/dags/etl_process_data.py    108  0.00s             1           0  0.12s           2024-10-24T00:28:38                      12
+/opt/airflow/dags/Etl_weather.py         107  0.01s             0           1  0.06s           2024-10-24T00:28:38                       5
+================================================================================
+[2024-10-24T00:29:39.541+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    117  0.00s             1           0  0.35s           2024-10-24T00:29:09                      34
+/opt/airflow/dags/etl_process.py                                1           0  0.12s           2024-10-24T00:29:09                      12
+/opt/airflow/dags/Etl_weather.py         116  0.01s             0           1  0.07s           2024-10-24T00:29:09                       5
+================================================================================
+[2024-10-24T00:30:10.129+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         130  0.00s             1           0  0.31s           2024-10-24T00:29:39                      34
+/opt/airflow/dags/etl_process_data.py    129  0.01s             1           0  0.11s           2024-10-24T00:29:39                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.06s           2024-10-24T00:30:01                       5
+================================================================================
+[2024-10-24T00:30:40.700+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    140  0.01s             1           0  0.30s           2024-10-24T00:30:10                      34
+/opt/airflow/dags/etl_process.py         141  0.00s             1           0  0.11s           2024-10-24T00:30:10                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.06s           2024-10-24T00:30:35                       5
+================================================================================
+[2024-10-24T00:31:11.372+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         152  0.00s             1           0  0.31s           2024-10-24T00:30:41                      34
+/opt/airflow/dags/etl_process_data.py    151  0.01s             1           0  0.25s           2024-10-24T00:30:40                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.06s           2024-10-24T00:30:48                       5
+================================================================================
+[2024-10-24T00:31:36.855+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T00:31:36.885+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2024-10-24T00:31:41.949+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    160  0.01s             1           0  0.30s           2024-10-24T00:31:11                      34
+/opt/airflow/dags/etl_process.py         161  0.00s             1           0  0.23s           2024-10-24T00:31:11                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.05s           2024-10-24T00:31:18                       5
+================================================================================
+[2024-10-24T00:32:12.678+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         173  0.00s             1           0  0.34s           2024-10-24T00:31:42                      34
+/opt/airflow/dags/etl_process_data.py    172  0.01s             1           0  0.26s           2024-10-24T00:31:42                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.06s           2024-10-24T00:32:07                       5
+================================================================================
+[2024-10-24T00:32:43.337+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    181  0.02s             1           0  0.32s           2024-10-24T00:32:12                      34
+/opt/airflow/dags/etl_process.py         182  0.00s             1           0  0.24s           2024-10-24T00:32:12                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.07s           2024-10-24T00:32:38                       5
+================================================================================
+[2024-10-24T00:33:13.873+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         191  0.00s             1           0  0.17s           2024-10-24T00:32:43                      34
+/opt/airflow/dags/etl_process_data.py    190  0.02s             1           0  0.11s           2024-10-24T00:32:43                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.06s           2024-10-24T00:33:08                       5
+================================================================================
+[2024-10-24T00:33:44.268+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    199  0.01s             1           0  0.18s           2024-10-24T00:33:14                      34
+/opt/airflow/dags/etl_process.py         200  0.00s             1           0  0.11s           2024-10-24T00:33:13                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.08s           2024-10-24T00:33:39                       5
+================================================================================
+[2024-10-24T00:33:59.673+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T00:41:17.984+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T00:41:17.985+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-24T00:41:17.986+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T00:41:17.987+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T00:41:18.028+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2024-10-24T00:41:18.123+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/etl_process.py                                0           0                                                   0
+/opt/airflow/dags/etl_process_data.py     52  0.02s             0           0                                                   0
+/opt/airflow/dags/Etl_weather.py          51  0.04s             0           0                                                   0
+================================================================================
+[2024-10-24T00:41:48.645+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py     61  0.00s             1           0  0.41s           2024-10-24T00:41:18                      34
+/opt/airflow/dags/etl_process.py                                1           0  0.17s           2024-10-24T00:41:18                      12
+/opt/airflow/dags/Etl_weather.py          60  0.01s             0           1  0.10s           2024-10-24T00:41:18                       5
+================================================================================
+[2024-10-24T00:42:19.142+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py          74  0.00s             1           0  0.30s           2024-10-24T00:41:49                      34
+/opt/airflow/dags/etl_process_data.py     73  0.02s             1           0  0.12s           2024-10-24T00:41:48                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.05s           2024-10-24T00:42:18                       5
+================================================================================
+[2024-10-24T00:42:49.725+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py     84  0.01s             1           0  0.34s           2024-10-24T00:42:19                      34
+/opt/airflow/dags/etl_process.py          85  0.00s             1           0  0.15s           2024-10-24T00:42:19                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.06s           2024-10-24T00:42:30                       5
+================================================================================
+[2024-10-24T00:43:20.578+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         103  0.00s             1           0  0.43s           2024-10-24T00:42:50                      34
+/opt/airflow/dags/etl_process_data.py    102  0.01s             1           0  0.37s           2024-10-24T00:42:50                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.05s           2024-10-24T00:43:15                       5
+================================================================================
+[2024-10-24T00:43:51.399+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    115  0.01s             1           0  0.40s           2024-10-24T00:43:20                      34
+/opt/airflow/dags/etl_process.py         116  0.00s             1           0  0.33s           2024-10-24T00:43:20                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.05s           2024-10-24T00:43:50                       5
+================================================================================
+[2024-10-24T00:44:22.200+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         130  0.00s             1           0  0.33s           2024-10-24T00:43:51                      34
+/opt/airflow/dags/etl_process_data.py    129  0.01s             1           0  0.25s           2024-10-24T00:43:51                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.07s           2024-10-24T00:44:20                       5
+================================================================================
+[2024-10-24T00:44:52.951+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    139  0.02s             1           0  0.31s           2024-10-24T00:44:22                      34
+/opt/airflow/dags/etl_process.py         140  0.01s             1           0  0.23s           2024-10-24T00:44:22                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.05s           2024-10-24T00:44:31                       5
+================================================================================
+[2024-10-24T00:45:23.443+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         149  0.00s             1           0  0.27s           2024-10-24T00:44:53                      34
+/opt/airflow/dags/etl_process_data.py    148  0.01s             1           0  0.18s           2024-10-24T00:44:53                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.05s           2024-10-24T00:45:02                       5
+================================================================================
+[2024-10-24T00:45:53.974+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    159  0.01s             1           0  0.21s           2024-10-24T00:45:23                      34
+/opt/airflow/dags/etl_process.py         160  0.00s             1           0  0.12s           2024-10-24T00:45:23                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.06s           2024-10-24T00:45:41                       5
+================================================================================
+[2024-10-24T00:46:18.354+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T00:46:18.411+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2024-10-24T00:46:24.490+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         169  0.00s             1           0  0.17s           2024-10-24T00:45:54                      34
+/opt/airflow/dags/etl_process_data.py    168  0.01s             1           0  0.12s           2024-10-24T00:45:54                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.08s           2024-10-24T00:46:03                       5
+================================================================================
+[2024-10-24T00:46:54.956+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    178  0.01s             1           0  0.19s           2024-10-24T00:46:24                      34
+/opt/airflow/dags/etl_process.py         179  0.00s             1           0  0.11s           2024-10-24T00:46:24                      12
+/opt/airflow/dags/Etl_weather.py                                0           1  0.08s           2024-10-24T00:46:52                       5
+================================================================================
+[2024-10-24T00:47:25.604+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py                                1           0  0.21s           2024-10-24T00:46:55                      34
+/opt/airflow/dags/etl_process_data.py    193  0.00s             1           0  0.13s           2024-10-24T00:46:55                      12
+/opt/airflow/dags/Etl_weather.py         192  0.01s             0           1  0.07s           2024-10-24T00:47:21                       5
+================================================================================
+[2024-10-24T00:47:56.244+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    205  0.01s             1           0  0.20s           2024-10-24T00:47:25                      34
+/opt/airflow/dags/etl_process.py         206  0.01s             1           0  0.10s           2024-10-24T00:47:25                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.10s           2024-10-24T00:47:43                      11
+================================================================================
+[2024-10-24T00:48:26.691+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         215  0.01s             1           0  0.18s           2024-10-24T00:47:56                      34
+/opt/airflow/dags/etl_process_data.py    214  0.01s             1           0  0.12s           2024-10-24T00:47:56                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.08s           2024-10-24T00:48:13                      11
+================================================================================
+[2024-10-24T00:48:57.204+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    223  0.01s             1           0  0.19s           2024-10-24T00:48:26                      34
+/opt/airflow/dags/etl_process.py         224  0.00s             1           0  0.12s           2024-10-24T00:48:26                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.10s           2024-10-24T00:48:44                      11
+================================================================================
+[2024-10-24T00:49:27.678+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         233  0.00s             1           0  0.18s           2024-10-24T00:48:57                      34
+/opt/airflow/dags/etl_process_data.py    232  0.01s             1           0  0.11s           2024-10-24T00:48:57                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.10s           2024-10-24T00:49:14                      11
+================================================================================
+[2024-10-24T00:49:58.152+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    241  0.02s             1           0  0.23s           2024-10-24T00:49:27                      34
+/opt/airflow/dags/etl_process.py         242  0.00s             1           0  0.12s           2024-10-24T00:49:27                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.09s           2024-10-24T00:49:45                      11
+================================================================================
+[2024-10-24T00:50:28.646+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         251  0.00s             1           0  0.22s           2024-10-24T00:49:58                      34
+/opt/airflow/dags/etl_process_data.py    250  0.01s             1           0  0.14s           2024-10-24T00:49:58                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.12s           2024-10-24T00:50:15                      11
+================================================================================
+[2024-10-24T00:50:59.134+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    259  0.01s             1           0  0.22s           2024-10-24T00:50:28                      34
+/opt/airflow/dags/etl_process.py         260  0.00s             1           0  0.12s           2024-10-24T00:50:28                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.11s           2024-10-24T00:50:46                      11
+================================================================================
+[2024-10-24T00:51:18.485+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T00:51:18.531+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2024-10-24T00:51:29.655+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         268  0.00s             1           0  0.21s           2024-10-24T00:50:59                      34
+/opt/airflow/dags/etl_process_data.py    267  0.01s             1           0  0.13s           2024-10-24T00:50:59                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.09s           2024-10-24T00:51:16                      11
+================================================================================
+[2024-10-24T00:52:00.121+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    276  0.01s             1           0  0.19s           2024-10-24T00:51:29                      34
+/opt/airflow/dags/Etl_weather.py                                1           0  0.11s           2024-10-24T00:51:47                      11
+/opt/airflow/dags/etl_process.py         277  0.00s             1           0  0.11s           2024-10-24T00:51:29                      12
+================================================================================
+[2024-10-24T00:52:30.592+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process.py         286  0.01s             1           0  0.20s           2024-10-24T00:52:00                      34
+/opt/airflow/dags/etl_process_data.py    285  0.02s             1           0  0.14s           2024-10-24T00:52:00                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.13s           2024-10-24T00:52:17                      11
+================================================================================
+[2024-10-24T00:53:01.068+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/etl_process_data.py    294  0.02s             1           0  0.22s           2024-10-24T00:52:30                      34
+/opt/airflow/dags/etl_process.py         295  0.01s             1           0  0.14s           2024-10-24T00:52:30                      12
+/opt/airflow/dags/Etl_weather.py                                1           0  0.09s           2024-10-24T00:52:47                      11
+================================================================================
+[2024-10-24T00:53:25.459+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/etl_process.py
+[2024-10-24T00:53:28.487+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/etl_process_data.py
+[2024-10-24T00:53:31.508+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.09s           2024-10-24T00:53:18                      11
+================================================================================
+[2024-10-24T00:53:51.776+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T00:56:14.878+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T00:56:14.879+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-24T00:56:14.880+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T00:56:14.880+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T00:56:14.912+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-24T00:56:15.000+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/Etl_weather.py     50  0.03s             0           0                                                   0
+================================================================================
+[2024-10-24T00:56:45.180+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.48s           2024-10-24T00:56:15                      45
+================================================================================
+[2024-10-24T00:57:15.915+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py     64  0.00s             1           0  0.10s           2024-10-24T00:56:45                      12
+================================================================================
+[2024-10-24T00:57:46.176+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py     71  0.00s             1           0  0.09s           2024-10-24T00:57:16                      12
+================================================================================
+[2024-10-24T00:58:16.411+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.25s           2024-10-24T00:57:46                      12
+================================================================================
+[2024-10-24T00:58:46.892+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py     91  0.00s             1           0  0.21s           2024-10-24T00:58:16                      12
+================================================================================
+[2024-10-24T00:59:17.290+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py     98  0.00s             1           0  0.23s           2024-10-24T00:58:47                      12
+================================================================================
+[2024-10-24T00:59:47.773+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.32s           2024-10-24T00:59:32                      34
+================================================================================
+[2024-10-24T01:00:18.165+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.18s           2024-10-24T01:00:03                      12
+================================================================================
+[2024-10-24T01:00:22.534+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T01:10:16.415+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T01:10:16.416+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-10-24T01:10:16.416+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T01:10:16.417+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:10:16.451+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-24T01:10:19.000+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.45s           2024-10-24T01:10:16                      34
+================================================================================
+[2024-10-24T01:10:49.195+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.14s           2024-10-24T01:10:47                      12
+================================================================================
+[2024-10-24T01:11:19.547+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.26s           2024-10-24T01:11:07                      34
+================================================================================
+[2024-10-24T01:11:49.827+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.10s           2024-10-24T01:11:37                      12
+================================================================================
+[2024-10-24T01:12:20.121+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.19s           2024-10-24T01:12:08                      12
+================================================================================
+[2024-10-24T01:12:50.379+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.19s           2024-10-24T01:12:38                      12
+================================================================================
+[2024-10-24T01:13:20.836+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.24s           2024-10-24T01:13:08                      12
+================================================================================
+[2024-10-24T01:13:51.319+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.27s           2024-10-24T01:13:48                      34
+================================================================================
+[2024-10-24T01:14:22.001+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py    123  0.00s             1           0  0.18s           2024-10-24T01:13:51                      11
+================================================================================
+[2024-10-24T01:14:52.580+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.09s           2024-10-24T01:14:51                      11
+================================================================================
+[2024-10-24T01:15:16.825+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:15:16.844+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-10-24T01:15:22.903+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.09s           2024-10-24T01:15:03                      11
+================================================================================
+[2024-10-24T01:15:53.236+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.17s           2024-10-24T01:15:34                      34
+================================================================================
+[2024-10-24T01:16:23.595+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.12s           2024-10-24T01:16:04                      12
+================================================================================
+[2024-10-24T01:16:53.923+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.10s           2024-10-24T01:16:34                      12
+================================================================================
+[2024-10-24T01:17:24.204+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.11s           2024-10-24T01:17:05                      12
+================================================================================
+[2024-10-24T01:17:54.616+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.11s           2024-10-24T01:17:35                      12
+================================================================================
+[2024-10-24T01:18:24.965+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.11s           2024-10-24T01:18:05                      12
+================================================================================
+[2024-10-24T01:18:55.277+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.09s           2024-10-24T01:18:36                      12
+================================================================================
+[2024-10-24T01:19:25.641+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.09s           2024-10-24T01:19:06                      12
+================================================================================
+[2024-10-24T01:19:55.983+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/Etl_weather.py                           1           0  0.10s           2024-10-24T01:19:36                      12
+================================================================================
+[2024-10-24T01:20:17.107+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
