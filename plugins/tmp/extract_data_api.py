@@ -39,10 +39,10 @@ def extract_weather_data():
         }
         
         df = pd.DataFrame([weather_info])
-        if not os.path.isfile("C:/Users/USUARIO/Desktop/Weather_Etl/plugins/tmp/weather_data.tsv"):
-            df.to_csv("C:/Users/USUARIO/Desktop/Weather_Etl/plugins/tmp/weather_data.tsv", sep='\t', index=False, mode='w')
+        if not os.path.isfile("C:/Users/USUARIO/Desktop/weather_etl/plugins/tmp/weather_data.tsv"):
+            df.to_csv("C:/Users/USUARIO/Desktop/weather_etl/plugins/tmp/weather_data.tsv", sep='\t', index=False, mode='w')
         else:
-            df.to_csv("C:/Users/USUARIO/Desktop/Weather_Etl/plugins/tmp/weather_data.tsv", sep='\t', index=False, mode='a', header=False)
+            df.to_csv("C:/Users/USUARIO/Desktop/weather_etl/plugins/tmp/weather_data.tsv", sep='\t', index=False, mode='a', header=False)
             
 
         

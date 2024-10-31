@@ -5,6 +5,8 @@ from airflow.models import DAG
 from airflow.operators.bash_operator import BashOperator
 from airflow.utils.dates import days_ago
 from airflow.providers.postgres.operators.postgres import PostgresOperator
+# from operators import PostgresFileOperator
+
 #defining DAG arguments
 # You can override them on a per-task basis during operator initialization
 
@@ -49,5 +51,11 @@ create_table = PostgresOperator(
          );
          """
 )
+
+# insert_data = PostgresFileOperator(
+#     task_id = "insert_data",
+#     operation = "write",
+#     config = {"table_name":"weather_medellin"}
+# )
 
 extract_data >> create_table
