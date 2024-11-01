@@ -1,0 +1,114 @@
+[2024-11-01T02:27:14.576+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-01T02:27:14.589+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dag.extract_data manual__2024-11-01T02:27:13.674459+00:00 [queued]>
+[2024-11-01T02:27:14.594+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dag.extract_data manual__2024-11-01T02:27:13.674459+00:00 [queued]>
+[2024-11-01T02:27:14.595+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-11-01T02:27:14.605+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_data> on 2024-11-01 02:27:13.674459+00:00
+[2024-11-01T02:27:14.610+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1509) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-01T02:27:14.611+0000] {standard_task_runner.py:72} INFO - Started process 1510 to run task
+[2024-11-01T02:27:14.611+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_dag', 'extract_data', 'manual__2024-11-01T02:27:13.674459+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/Etl_weather.py', '--cfg-path', '/tmp/tmp8ky03bn3']
+[2024-11-01T02:27:14.612+0000] {standard_task_runner.py:105} INFO - Job 106: Subtask extract_data
+[2024-11-01T02:27:14.647+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_dag.extract_data manual__2024-11-01T02:27:13.674459+00:00 [running]> on host 915ee6de4e26
+[2024-11-01T02:27:14.709+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='milo0@gmail.com' AIRFLOW_CTX_DAG_OWNER='milo' AIRFLOW_CTX_DAG_ID='weather_dag' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T02:27:13.674459+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-01T02:27:13.674459+00:00'
+[2024-11-01T02:27:14.710+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-01T02:27:14.720+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-11-01T02:27:14.721+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/tmp/extract_data_api.py']
+[2024-11-01T02:27:14.728+0000] {subprocess.py:86} INFO - Output:
+[2024-11-01T02:27:15.898+0000] {subprocess.py:93} INFO - {'coord': {'lon': -75.5646, 'lat': 6.2529}, 'weather': [{'id': 802, 'main': 'Clouds', 'description': 'scattered clouds', 'icon': '03n'}], 'base': 'stations', 'main': {'temp': 19.58, 'feels_like': 20.07, 'temp_min': 19.43, 'temp_max': 20.01, 'pressure': 1014, 'humidity': 95, 'sea_level': 1014, 'grnd_level': 806}, 'visibility': 9000, 'wind': {'speed': 3.58, 'deg': 60, 'gust': 0}, 'clouds': {'all': 40}, 'dt': 1730427926, 'sys': {'type': 2, 'id': 2084700, 'country': 'CO', 'sunrise': 1730371724, 'sunset': 1730414569}, 'timezone': -18000, 'id': 3674962, 'name': 'Medellín', 'cod': 200}
+[2024-11-01T02:27:15.900+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-11-01T02:27:15.901+0000] {subprocess.py:93} INFO -   File "/opt/***/tmp/extract_data_api.py", line 59, in <module>
+[2024-11-01T02:27:15.905+0000] {subprocess.py:93} INFO -     extract_weather_data()
+[2024-11-01T02:27:15.907+0000] {subprocess.py:93} INFO -   File "/opt/***/tmp/extract_data_api.py", line 43, in extract_weather_data
+[2024-11-01T02:27:15.911+0000] {subprocess.py:93} INFO -     df = pd.DataFrame([weather_info],index=True)
+[2024-11-01T02:27:15.912+0000] {subprocess.py:93} INFO -          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-01T02:27:15.913+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/pandas/core/frame.py", line 814, in __init__
+[2024-11-01T02:27:15.914+0000] {subprocess.py:93} INFO -     mgr = arrays_to_mgr(
+[2024-11-01T02:27:15.915+0000] {subprocess.py:93} INFO -           ^^^^^^^^^^^^^^
+[2024-11-01T02:27:15.916+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 116, in arrays_to_mgr
+[2024-11-01T02:27:15.916+0000] {subprocess.py:93} INFO -     index = ensure_index(index)
+[2024-11-01T02:27:15.917+0000] {subprocess.py:93} INFO -             ^^^^^^^^^^^^^^^^^^^
+[2024-11-01T02:27:15.917+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 7577, in ensure_index
+[2024-11-01T02:27:15.919+0000] {subprocess.py:93} INFO -     return Index(index_like, copy=copy)
+[2024-11-01T02:27:15.920+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-01T02:27:15.921+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 525, in __new__
+[2024-11-01T02:27:15.921+0000] {subprocess.py:93} INFO -     raise cls._raise_scalar_data_error(data)
+[2024-11-01T02:27:15.922+0000] {subprocess.py:93} INFO -           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-11-01T02:27:15.922+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 5266, in _raise_scalar_data_error
+[2024-11-01T02:27:15.923+0000] {subprocess.py:93} INFO -     raise TypeError(
+[2024-11-01T02:27:15.923+0000] {subprocess.py:93} INFO - TypeError: Index(...) must be called with a collection of some kind, True was passed
+[2024-11-01T02:27:15.989+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-11-01T02:27:15.997+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-11-01T02:27:16.005+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=weather_dag, task_id=extract_data, run_id=manual__2024-11-01T02:27:13.674459+00:00, execution_date=20241101T022713, start_date=20241101T022714, end_date=20241101T022716
+[2024-11-01T02:27:16.018+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-01T02:27:16.019+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 106 for task extract_data (Bash command failed. The command returned a non-zero exit code 1.; 1510)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-11-01T02:27:16.034+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-01T02:27:16.043+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-11-01T02:27:16.053+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-01T02:27:16.056+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

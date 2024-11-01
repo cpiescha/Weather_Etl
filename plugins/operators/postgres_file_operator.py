@@ -17,11 +17,10 @@ class PostgresFileOperator(BaseOperator):
         
     def execute(self,context):
         if self.operation=="write":
-            pass
+            self.writeinDb()
         elif self.operation=="read":
             pass
         
     def writeinDb(self):
-        self.postgres_hook.bulk_load(self.config.get('table_name'), 'C:/Users/USUARIO/Desktop/weather_etl/plugins/tmp/weather_data.tsv')
-            
+        self.postgres_hook.bulk_load(self.config.get('table_name'), 'tmp/weather_data.tsv')
         

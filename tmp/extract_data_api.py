@@ -4,6 +4,7 @@ from datetime import datetime
 import json
 import pandas as pd
 import os
+import pytz
 
 def send_text(bot_message):                                        #funcion que envia mensajes al chatbot de telegram
     bot_token = '7706822133:AAFDfID_VjRuyE5DAdlwPwneAEv2GZG7VtQ'
@@ -18,6 +19,7 @@ def extract_weather_data():
     lat=6.25184
     lon=-75.56359
     API_key='cc86cf368327ae7b03bff8ac2ddae208'
+    bogota_tz = pytz.timezone('America/Bogota')
     
     response= requests.get(f'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_key}&units=metric')
     # Verificar si la solicitud fue exitosa
@@ -30,19 +32,21 @@ def extract_weather_data():
 
         weather_info = {
             'ciudad': response['name'],
-            'temp':data['temp'],
+            'temp':float(data['temp']),
             'temp_min': data['temp_min'],
             'temp_max': data['temp_max'],
             'pressure': data['pressure'],
             'humidity': data['humidity'],
-            'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            'timestamp': datetime.now(bogota_tz).strftime('%Y-%m-%d %H:%M:%S')
         }
         
         df = pd.DataFrame([weather_info])
-        if not os.path.isfile("C:/Users/USUARIO/Desktop/weather_etl/plugins/tmp/weather_data.tsv"):
-            df.to_csv("C:/Users/USUARIO/Desktop/weather_etl/plugins/tmp/weather_data.tsv", sep='\t', index=False, mode='w')
+        
+        
+        if not os.path.isfile('/opt/airflow/tmp/weather_data.tsv'):
+             df.to_csv("/opt/airflow/tmp/weather_data.tsv", sep='\t', index=False,header=False, mode='w')
         else:
-            df.to_csv("C:/Users/USUARIO/Desktop/weather_etl/plugins/tmp/weather_data.tsv", sep='\t', index=False, mode='a', header=False)
+             df.to_csv("/opt/airflow/tmp/weather_data.tsv", sep='\t', index=False, mode='a', header=False)
             
 
         
