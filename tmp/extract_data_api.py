@@ -49,7 +49,7 @@ def extract_weather_data():
              df.to_csv("/opt/airflow/tmp/weather_data.tsv", sep='\t', index=False, mode='a', header=False)
             
 
-        
+        #enviar mensaje a telegram
         send_text(f"Informacion meteorologica \n ciudad: {weather_info['ciudad']} \n temperatura: {weather_info['temp']} °C \n Temperatura minima: {weather_info['temp_min']} °C \n Temperatura maxima: {weather_info['temp_max']} °C \n Presion: {weather_info['pressure']} hPa \n  humedad: {weather_info['humidity']} % \n fecha y hora: {weather_info['timestamp']}")
                     
     else:

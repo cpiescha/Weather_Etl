@@ -28,7 +28,7 @@ dag = DAG(
      dag_id='weather_dag',
      default_args=default_args,
      description='etl process weather',
-     schedule_interval=timedelta(days=1),
+     schedule_interval=timedelta(minutes=10),
  )
 
 extract_data = BashOperator(
@@ -37,7 +37,7 @@ extract_data = BashOperator(
     dag=dag
 )
 
-create_table = PostgresOperator(
+create_table_db = PostgresOperator(
          task_id='create_table',
          postgres_conn_id='postgres_default',
          sql="""
@@ -53,10 +53,10 @@ create_table = PostgresOperator(
          """
 )
 
-insert_data = PostgresFileOperator(
+insert_data_db = PostgresFileOperator(
      task_id = "insert_data",
      operation = "write",
      config = {"table_name":"weather_medellin"}
  )
 
-extract_data >> create_table >>insert_data
+extract_data >> create_table_db >> insert_data_db
