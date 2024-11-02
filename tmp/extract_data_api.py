@@ -7,8 +7,8 @@ import os
 import pytz
 
 def send_text(bot_message):                                        #funcion que envia mensajes al chatbot de telegram
-    bot_token = '7706822133:AAFDfID_VjRuyE5DAdlwPwneAEv2GZG7VtQ'
-    chat_ID = '6823995584'
+    bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
+    chat_ID = os.getenv('TELEGRAM_CHAT_ID')
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + chat_ID + '&parse_mode=Markdown&text=' + bot_message
 
     res = requests.post(send_text)
@@ -16,9 +16,9 @@ def send_text(bot_message):                                        #funcion que 
 
 def extract_weather_data():
     
-    lat=6.25184
-    lon=-75.56359
-    API_key='cc86cf368327ae7b03bff8ac2ddae208'
+    lat = 6.25184
+    lon = -75.56359
+    API_key = os.getenv('WEATHER_API_KEY')
     bogota_tz = pytz.timezone('America/Bogota')
     
     response= requests.get(f'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_key}&units=metric')
