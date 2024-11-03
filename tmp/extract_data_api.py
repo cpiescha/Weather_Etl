@@ -5,6 +5,9 @@ import json
 import pandas as pd
 import os
 import pytz
+from dotenv import load_dotenv
+
+load_dotenv('.gitignore/.env')
 
 def send_text(bot_message):                                        #funcion que envia mensajes al chatbot de telegram
     bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
@@ -44,9 +47,9 @@ def extract_weather_data():
         
         
         if not os.path.isfile('/opt/airflow/tmp/weather_data.tsv'):
-             df.to_csv("/opt/airflow/tmp/weather_data.tsv", sep='\t', index=False,header=False, mode='w')
+            df.to_csv("/opt/airflow/tmp/weather_data.tsv", sep='\t', index=False,header=False, mode='w')
         else:
-             df.to_csv("/opt/airflow/tmp/weather_data.tsv", sep='\t', index=False, mode='a', header=False)
+            df.to_csv("/opt/airflow/tmp/weather_data.tsv", sep='\t', index=False, mode='a', header=False)
             
 
         #enviar mensaje a telegram
