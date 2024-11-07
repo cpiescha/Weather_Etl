@@ -7,7 +7,7 @@ import os
 import pytz
 from dotenv import load_dotenv
 
-load_dotenv('.gitignore/.env')
+load_dotenv()
 
 def send_text(bot_message):                                        #funcion que envia mensajes al chatbot de telegram
     bot_token = os.getenv('TELEGRAM_BOT_TOKEN')

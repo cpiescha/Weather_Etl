@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import timedelta,datetime
 # The DAG object; we'll need this to instantiate a DAG
 from airflow.models import DAG
 #from airflow.operators.python import PythonOperator
@@ -27,8 +27,10 @@ default_args = {
 dag = DAG(
      dag_id='weather_dag',
      default_args=default_args,
-     description='etl process weather',
-     schedule_interval=timedelta(minutes=10),
+     schedule_interval='@hourly',
+     catchup=False,
+     max_active_runs=1,
+     concurrency=1
  )
 
 extract_data = BashOperator(

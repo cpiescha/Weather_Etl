@@ -1,0 +1,20 @@
+[2024-11-07T22:35:58.395+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-07T22:35:58.444+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dag.insert_data scheduled__2024-11-07T00:30:00+00:00 [queued]>
+[2024-11-07T22:35:58.467+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dag.insert_data scheduled__2024-11-07T00:30:00+00:00 [queued]>
+[2024-11-07T22:35:58.469+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-07T22:35:58.513+0000] {taskinstance.py:2888} INFO - Executing <Task(PostgresFileOperator): insert_data> on 2024-11-07 00:30:00+00:00
+[2024-11-07T22:35:58.531+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=451) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-07T22:35:58.535+0000] {standard_task_runner.py:72} INFO - Started process 484 to run task
+[2024-11-07T22:35:58.535+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_dag', 'insert_data', 'scheduled__2024-11-07T00:30:00+00:00', '--job-id', '460', '--raw', '--subdir', 'DAGS_FOLDER/Etl_weather.py', '--cfg-path', '/tmp/tmprerrx9dt']
+[2024-11-07T22:35:58.538+0000] {standard_task_runner.py:105} INFO - Job 460: Subtask insert_data
+[2024-11-07T22:35:58.640+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_dag.insert_data scheduled__2024-11-07T00:30:00+00:00 [running]> on host 915ee6de4e26
+[2024-11-07T22:35:58.870+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weather_dag' AIRFLOW_CTX_TASK_ID='insert_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-07T00:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-07T00:30:00+00:00'
+[2024-11-07T22:35:58.880+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-07T22:35:58.933+0000] {postgres.py:191} INFO - Running copy expert: COPY weather_medellin FROM STDIN, filename: tmp/weather_data.tsv
+[2024-11-07T22:35:58.972+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2024-11-07T22:35:59.123+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-07T22:35:59.125+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=weather_dag, task_id=insert_data, run_id=scheduled__2024-11-07T00:30:00+00:00, execution_date=20241107T003000, start_date=20241107T223558, end_date=20241107T223559
+[2024-11-07T22:35:59.202+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-07T22:35:59.231+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
